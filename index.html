@@ -17,7 +17,7 @@
       background-repeat: no-repeat;
       overflow: hidden;
     }
-    .container {
+   .container {
       border: 2px solid;
       width: 90%;
       max-width: 800px;
@@ -31,6 +31,7 @@
       align-items: center;
       box-sizing: border-box;
       position: relative;
+      border-radius: 15px; /* Added rounded corners */
     }
     .banner {
       width: 100%;
@@ -42,21 +43,23 @@
       top: 0;
       left: 0;
       z-index: -1;
+      border-radius: 15px 15px 0 0; /* Rounded corners for the top of the banner */
     }
     .square {
-    background-color: rgba(0, 0, 0, 1);
-    width: 100%;
-    max-width: 400px;
-    padding: 20px;
-   opacity: 1;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   box-sizing: border-box;
-   position: relative;
-   margin-top: 150px; /* Increased margin-top to 120px */
-   overflow: hidden;
-   }
+      background-color: rgba(0, 0, 0, 1);
+      width: 100%;
+      max-width: 400px;
+      padding: 20px;
+      opacity: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-sizing: border-box;
+      position: relative;
+      margin-top: 150px; /* Increased margin-top to 150px */
+      overflow: hidden;
+      border-radius: 15px; /* Added rounded corners */
+    }
     h1 {
       font-size: 24px;
       font-weight: bold;
